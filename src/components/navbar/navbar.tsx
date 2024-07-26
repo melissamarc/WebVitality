@@ -1,20 +1,31 @@
 import { Link } from "react-router-dom"
+import logo from '../../assets/logo.png'
 import './navbar.css'
 
 function Navbar() {
   return (
     
-      <div>
-      
-      <div>
-        <ul>
-          <li><Link to="/sign-up">Sign Up</Link></li>
-          <li><Link to="/sign-in">Sign In</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-          <li><Link to="/dashboard">Dashboard</Link></li>
-        </ul>
+      <div className="navbar">
+      <div className="logo">
+        <img src={logo} />
+        <span> Vitality Vision </span>
       </div>
-    </div>
+      
+      <nav className="nav">
+        <ul>
+          <li><Link to="/contact"> Contato </Link></li>
+          <li><Link to="/help">Ajuda</Link></li>
+        <li><Link to="/artigos">Artigos</Link></li>
+            <li><Link to="/about-us">Quem Somos</Link></li>
+         
+        </ul>
+      </nav>
+      <div className="auth-buttons">
+        <Link to="/sign-up" className="btn">Sign Up</Link>
+        <Link to="/sign-in" className="btn">Sign In</Link>
+      </div>
+
+</div>
     
   )
 }

@@ -1,0 +1,31 @@
+.skills {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .skills-details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .skill {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 0 10px;
+  }
+  
+  .experience {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .experience div {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 10px;
+  }

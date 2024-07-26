@@ -1,0 +1,34 @@
+.categories {
+    padding: 50px 20px;
+  }
+  
+  .category-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .category-nav li {
+    margin: 0 10px;
+  }
+  
+  .category-nav a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .category-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .category-card {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 22%;
+  }
