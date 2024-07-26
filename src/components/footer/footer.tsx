@@ -12,18 +12,9 @@ return (
           <li><a href="#">Customer</a></li>
         </ul>
       </div>
-      <div className="newsletter">
-        <h3>Join our community</h3>
-        <div className="newsletter-signup">
-          <input type="email" placeholder="Enter your email" />
-          <button>Go</button>
-        </div>
-      </div>
-      <div className="social-media">
-        <a href="#"><i className="fab fa-facebook-f"></i></a>
-        <a href="#"><i className="fab fa-twitter"></i></a>
-        <a href="#"><i className="fab fa-instagram"></i></a>
-      </div>
+    <div className='subbar'> 
+     <span> Vitality Vision - 2024. Todos os Direitos Reservados. </span>
+     </div>
     </footer>
   );
 }

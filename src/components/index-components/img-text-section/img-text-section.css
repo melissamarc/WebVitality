@@ -1,0 +1,48 @@
+.image-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .text-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .image-text-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .text-content {
+      padding-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+  
